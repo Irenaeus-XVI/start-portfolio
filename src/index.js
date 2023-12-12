@@ -16,7 +16,8 @@ import Contact from './Components/Contact/Contact';
 
 
 const routers = createBrowserRouter([{
-  path: '', element: <Layout />, children: [
+
+  path: 'start-portfolio', element: <Layout />, children: [
     { index: true, element: <Home /> },
     { path: 'about', element: <About /> },
     { path: 'portfolio', element: <Portfolio /> },
