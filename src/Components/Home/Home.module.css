@@ -1,0 +1,25 @@
+.star {
+    position: relative;
+
+}
+
+.star::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 55%;
+    height: 4px;
+    width: 35%;
+    background-color: white;
+}
+
+
+.star::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 55%;
+    height: 4px;
+    width: 35%;
+    background-color: white;
+}
