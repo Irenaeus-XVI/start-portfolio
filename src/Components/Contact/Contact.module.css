@@ -1,0 +1,30 @@
+
+.star {
+    position: relative;
+
+}
+
+.star::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 55%;
+    height: 4px;
+    width: 10%;
+    background-color: black;
+}
+
+
+.star::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 55%;
+    height: 4px;
+    width: 10%;
+    background-color: black;
+}
+
+.mainColor .mainColor:hover{
+    background-color: #1abc9c;
+}
